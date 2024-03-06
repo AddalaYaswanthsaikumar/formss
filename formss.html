@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color:blueviolet;
+        margin-left:700px;
+        margin-right:700px;
+    }
+</style>
+<body>
+    <form>
+        <center>
+        <h1>Registration Form</h1>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" required><br>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email" required><br>
+        <label for="password">password</label><br>
+        <input type="text" name="password" id="password" required><br>
+        <label for="mobile number">Mobile No</label><br>
+        <input type="tel" name="mobile number" id="mobile number" required><br>
+        <label for="gender">Gender</label><br>
+        <select>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Others">Others</option>
+        </select><br>
+        <label for="language">Language</label><br>
+        <select>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+        </select><br>
+        <label for="zipcode">Zipcode</label><br>
+        <input type="tel" name="zipcode" id="zipode" required><br><br>
+        <label for="address">Address</label><br>
+        <textarea rows="5" col="15"></textarea><br>
+        <input type="submit" value="submit">
+        </center>
+    </form>
+</body>
+</html>
